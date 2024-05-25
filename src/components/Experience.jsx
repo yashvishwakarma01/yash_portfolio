@@ -78,7 +78,7 @@ const Experience = () => {
     {
       id: 11,
       src: mongodb,
-      title: "Mongodn",
+      title: "Mongodb",
       style: "shadow-pink-400",
     },
     {
