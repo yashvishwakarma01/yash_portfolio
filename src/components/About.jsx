@@ -18,16 +18,16 @@ const About = () => {
           <b>
             <i>Yash Vishwakarma</i>
           </b>
-          , a final-year Computer Science Engineering student with a fervent
+          , a Software Engineer with a fervent
           enthusiasm for turning code into impactful solutions. Currently
-          pursuing my Bachelor's degree at United College of Engineering and
-          Research Prayagraj , my academic journey has equipped me with a
-          comprehensive understanding of algorithms, data structures,full stack
-          web development and machine learning. I thrive on challenges, and my
-          diverse coursework has enabled me to apply theoretical knowledge to
-          practical scenarios. Proficient in programming languages like Java,
-          Python, C, C++, SQL and JavaScript, I bring a versatile skill set to
-          the table
+          working at uolo.com, did my Bachelor's degree (B.Tech) at United 
+          College of Engineering and Research Prayagraj , my academic journey 
+          has equipped me with a comprehensive understanding of algorithms, 
+          data structures,full stack web development and machine learning. 
+          I thrive on challenges, and my diverse coursework has enabled me to 
+          apply theoretical knowledge to practical scenarios. Proficient in 
+          programming languages like Java, Python, C, C++,JavaScript, SQL and 
+          MongoDb. I bring a versatile skill set to the table
         </p>
 
         <br />
