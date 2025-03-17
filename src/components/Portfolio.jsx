@@ -5,48 +5,65 @@ import messanger from "../assets/portfolio/messanger.jpg";
 import ecommerce from "../assets/portfolio/ecommerce.png";
 import todo from "../assets/portfolio/Todo.jpg";
 import breastCancer from "../assets/portfolio/breastCancer.jpg";
+import study_notion from "../assets/portfolio/study_notion.png"
+import clickEazzy from "../assets/portfolio/clickeazzy.png"
 
 
 const Portfolio = () => {
 
   const portfolios = [
     {
-      id: 1,
+      id:1,
+      src:study_notion,
+      project: "Study Notion",
+      url:"https://study-notion-frontend.netlify.app/"
+
+    },
+    {
+      id: 2,
+      src: clickEazzy,
+      project: "Click Eazzy",
+      url:"https://clickeazzy.netlify.app/"
+      
+    },
+    {
+      id: 3,
+      src: breastCancer,
+      project:'Breast Cancer Detection',
+      url:"https://github.com/yashvishwakarma01/Breast_Cancer_Detection_Model"
+    },
+    {
+      id: 4,
       src: task,
       project: "Task Manager Application",
       url:"https://github.com/yashvishwakarma01/Task-Management"
       
     },
     {
-      id: 2,
+      id: 5,
       src: ecommerce,
       project:"Ecommerce site (MERN)",
       url:'https://github.com/yashvishwakarma01/Ecommerce_website_Node'
     },
     {
-      id: 3,
+      id: 6,
       src: messanger,
       project:"Messanger",
       url:"https://github.com/yashvishwakarma01/Python-Messanger"
     },
     {
-      id: 4,
+      id: 7,
       src: todo,
       project:"Todo App",
       url:"https://github.com/yashvishwakarma01/ToDoAPP-using-mern"
     },
     {
-      id: 5,
+      id: 8,
       src: kitten,
       project:"Explodding kitten game",
       url:"https://github.com/yashvishwakarma01/Exploding-kitten"
     },
-    {
-      id: 6,
-      src: breastCancer,
-      project:'Breast Cancer Detection',
-      url:"https://github.com/yashvishwakarma01/Breast_Cancer_Detection_Model"
-    },
+   
   ];
 
   return (
@@ -76,7 +93,7 @@ const Portfolio = () => {
                 </button>
                 {/* <div style={{color:"orange"}} className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">{project}</div> */}
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={()=>window.open(url)} >
-                Code
+                {id===1 || id===2? "Click to Explore":"Code"}
                 </button>
               </div>
             </div>
