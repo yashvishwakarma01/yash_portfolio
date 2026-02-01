@@ -19,8 +19,10 @@ const About = () => {
             <i>Yash Vishwakarma</i>
           </b>
           , a Software Engineer with a fervent
-          enthusiasm for turning code into impactful solutions. Currently
-          working at uolo.com, did my Bachelor's degree (B.Tech) at United 
+          enthusiasm for turning code into impactful solutions. Right now
+          working at Deep Algorithms Solutions Pvt. Ltd., previously worked 
+          at Uolo Edtech Pvt. Ltd as Associate Software Development Engineer,
+           did my Bachelor's degree (B.Tech) at United 
           College of Engineering and Research Prayagraj , my academic journey 
           has equipped me with a comprehensive understanding of algorithms, 
           data structures,full stack web development and machine learning. 
@@ -33,7 +35,7 @@ const About = () => {
         <br />
 
         <p className="text-xl">
-          Internship experiences at <b><i>Sarvmatre International Pvt. Ltd.</i></b> have further enriched my skill set, exposing me
+          Full time experience at Uolo and Internship experiences at <b><i>Sarvmatre International Pvt. Ltd.</i></b> have further enriched my skill set, exposing me
           to real-world applications of computer science. Active participation
           in extracurricular activities and competitions complements my academic
           journey, emphasizing adaptability and continuous learning. As I stand
