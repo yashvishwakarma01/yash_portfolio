@@ -16,7 +16,7 @@ const Home = () => {
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
             working at <b>Deep Algorithms Solutions Pvt. Ltd.</b> ,I have 1.5 year of experience building 
-            and desgining software. Currently, I love to work on web application
+            and desgining software. I love to work on web application
             using technologies like React, Tailwind, React- Native, Node, Golang.
           </p>
 
